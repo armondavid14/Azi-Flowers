@@ -205,13 +205,11 @@ footer .hours {
         width: 100%;
         font-size: medium;
     }
-    .intro {
-        width: 100%;
-    }
+
     .toolbar {
         padding: 10px;
     }
-    nav {
+    nav  {
         width: auto;
         font-size: small;
         display:block;
@@ -220,13 +218,29 @@ footer .hours {
     }
 
     img {
+        
         width: 100%;
+    }
+    .container {
+        width: auto;
+    }
+
+    .container h3 {
+        font-size: medium;
+    }
+
+    .aboutUs p {
+        
+        font-size: small;
     }
     form {
         margin: 10px;
         width: 80%;
     }
-    .contactMe{
+    .shipping form {
+        width: 30%;
+    }
+    .delivery div{
         margin: 10px;
         width: 80%;
     }
