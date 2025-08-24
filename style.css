@@ -1,0 +1,86 @@
+* {
+    margin: auto;
+    padding: auto;
+}
+
+.toolbar nav {
+    padding: 20px;
+    margin: 0;
+    text-align: right;
+    background-color: white;
+}
+
+h1{
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+   text-align: center; 
+}
+
+.deals1 {
+    font-family: Bw;
+    display: flex;
+    background-color: #007300;
+    padding: 20px;
+    margin: 10px;
+    width: 400px;
+}
+
+.deals2 {
+    font-family: Bw;
+    display: flex;
+    background-color: #007300;
+    padding: 20px;
+    margin: 10px;
+    width: 400px;
+}
+
+.deals3 {
+    font-family: Bw;
+    display: flex;
+    background-color: #007300;
+    padding: 20px;
+    margin: 10px;
+    width: 400px;
+}
+
+.deals4 {
+    font-family: Bw;
+    display: flex;
+    background-color: #007300;
+    padding: 20px;
+    margin: 10px;
+    width: 400px;
+}
+
+.aboutUs {
+    text-align: center;
+}
+
+
+body {
+    width: 80%;
+    background-color: #FF6EC7;
+    text-align: center;
+    color: white;
+    padding: 40px;
+}
+
+form {
+    text-align: center;
+    margin: 20px;
+}
+
+button {
+    margin-bottom: 20px;
+}
+
+footer {
+    padding: 10px;
+    background-color: #007300;
+}
