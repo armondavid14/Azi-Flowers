@@ -9,7 +9,7 @@
 }
 
 .toolbar {
-    width: 100%;
+    width: auto;
     display: inline-block;
 }
 .logo img{

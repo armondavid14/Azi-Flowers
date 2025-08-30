@@ -9,7 +9,7 @@
 }
 
 .toolbar {
-    width: 100%;
+    width: auto;
     display: inline-block;
 }
 
@@ -56,10 +56,8 @@ body {
 
 .delivery div {
     align-items: center;
-    display: flexbox;
+    display: inline-block;
     width: 20%;
-    float: left;
-    overflow: auto;
     padding: 20px;
     margin: 10px;
     background-color: white;
@@ -96,7 +94,7 @@ form {
 }
 
 footer {
-    width: 100%;
+    width: auto;
     padding: 20px;
     background-color: #007300;
 }
