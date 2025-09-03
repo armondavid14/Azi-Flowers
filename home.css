@@ -11,9 +11,9 @@
     width: auto;
     display: inline-block;
 }
-.logo img{
+.toolbar nav .logo img{
     float: left;
-    width: 10%;
+    width: 3.5%;
 }
 .toolbar nav img {
     align-items: last baseline;
@@ -56,6 +56,7 @@ body {
 button {
     background-color: #007300;
     color: white;
+    padding: 10px;
 }
 
 img {
@@ -63,7 +64,12 @@ img {
 }
 .container {
     width: 100%;
-    overflow: auto;
+    
+}
+
+.container p {
+    color: rgb(255, 0, 0);
+    font-style: o;
 }
 
 .container div {
@@ -78,6 +84,10 @@ img {
     width: 100px;
     height: 100px;
     float: left;
+}
+.container div button {
+    background-color: #007300;
+    padding: 5px;
 }
 
 .aboutUs {
@@ -126,6 +136,11 @@ footer .contact {
     padding: 10px;
 }
 
+footer .contact img {
+    background-color: #007300;
+    width: 10%;
+}
+
 footer .shopping {
     display: inline-block;
     padding: 10px;
@@ -145,50 +160,38 @@ footer button {
 }
 
 
-
 @media (max-width: 768px) {
     body {
         padding: 0px;
         width: 100%;
         font-size: medium;
     }
-
     .toolbar {
         padding: 10px;
     }
     nav  {
         width: auto;
-        font-size: small;
-        display:block;
-		padding:.2em;
-		font-size:1.4em;
-    }
-
-    img {
         
-        width: 100%;
     }
-    .container {
-        width: auto;
+    .toolbar nav .logo img {
+        
+        width: 12%;
     }
-
+    .toolbar nav img {
+        align-items: last baseline;
+        width: 10%;
+    }
+    .container div{
+        width: 80%;
+        margin: 10px;
+    }
     .container h3 {
         font-size: medium;
     }
-
     .aboutUs p {
-        
         font-size: small;
     }
-    form {
-        margin: 10px;
-        width: 80%;
-    }
-    .shipping form {
-        width: 30%;
-    }
-    .delivery div{
-        margin: 10px;
-        width: 80%;
+    .speciality{
+        width: 100%;
     }
 }

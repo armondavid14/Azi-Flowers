@@ -12,9 +12,9 @@
     width: auto;
     display: inline-block;
 }
-.logo img{
+.toolbar nav .logo img{
     float: left;
-    width: 10%;
+    width: 3.5%;
 }
 .toolbar nav img {
     align-items: last baseline;
@@ -37,7 +37,10 @@ body {
     padding: 40px;
 }
 
-
+button {
+    padding: 2px;
+    margin: 20px;
+}
 
 footer {
     width: auto;
@@ -60,6 +63,10 @@ footer .shopping {
     text-align: center;
     
 }
+footer .contact img {
+    background-color: #007300;
+    width: 10%;
+}
 footer img {
     margin: 10px;
     background-color: white;
@@ -70,4 +77,34 @@ footer button {
     background-color: #FF6EC7;
     color: black;
     padding: 5px;
+}
+
+@media (max-width: 768px) {
+    body {
+        padding: 0px;
+        width: 100%;
+        font-size: medium;
+    }
+   .toolbar {
+        padding: 10px;
+    }
+    nav  {
+        width: auto;
+        
+    }
+    .toolbar nav .logo img {
+        
+        width: 12%;
+    }
+    .toolbar nav img {
+        align-items: last baseline;
+        width: 10%;
+    }
+    form {
+        width: 100%;
+    }
+    button {
+        padding: 0;
+        margin: 0;
+    }
 }
